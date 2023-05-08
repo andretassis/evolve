@@ -1,0 +1,52 @@
+.aulas-titulo {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.aulas-titulo p {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.aulas-titlo strong {
+    color: #2254d3;
+
+}
+
+.img-card {
+    width: 170px;
+    height: auto;
+}
+
+.container-aulas {
+    margin-top: 3em;
+}
+
+.aulas-container {
+    cursor: pointer;
+}
+
+.aulas-container:hover {
+    border: 2px solid #2254d3;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.aulas-nome {
+    text-align: center;
+    background-color: #2254d3;
+    color: #E9E9E9;
+    font-size: 0.8em;
+}
+
+.horario-img {
+    width: 20px;
+    height: auto;
+    margin-top: 1.2em;
+}
+
+.horario {
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    font-weight: 600;
+}
