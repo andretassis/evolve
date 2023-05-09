@@ -11,8 +11,8 @@ function Nav() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-link" aria-current="page" href="#">Aulas</a>
-                        <a className="nav-link" href="#">Preços</a>
-                        <a className="nav-link" href="#">Contato</a>
+                        <a className="nav-link" href="#">Planos</a>
+                        <a className="nav-link" href="#">Horário</a>
                         <a className="nav-link" href="#">Área do aluno</a>
                     </div>
                 </div>

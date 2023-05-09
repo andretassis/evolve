@@ -16,10 +16,13 @@
 .img-card {
     width: 170px;
     height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .container-aulas {
     margin-top: 3em;
+
 }
 
 .aulas-container {
@@ -27,7 +30,7 @@
 }
 
 .aulas-container:hover {
-    border: 2px solid #2254d3;
+    border: 1.5px solid #2254d3;
     border-radius: 5px;
     padding: 3px;
 }
@@ -39,7 +42,8 @@
     font-size: 0.8em;
 }
 
-.horario-img {
+.horario-img,
+.intensidade-img {
     width: 20px;
     height: auto;
     margin-top: 1.2em;
@@ -49,4 +53,25 @@
     margin-top: 0.3em;
     font-size: 0.8em;
     font-weight: 600;
+}
+
+.dumbell {
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 75px;
+}
+
+.aulas-nome-mais {
+    text-align: center;
+    background-color: #dad0d0;
+    color: #2254D3;
+    font-size: 0.8em;
+}
+
+
+.aulas-container-mais:hover {
+    border: 1.5px solid #dad0d0;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
 }
