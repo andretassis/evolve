@@ -2,3 +2,9 @@
     margin-top: 35px;
     ;
 }
+
+.esqueci-senha {
+    text-decoration: none;
+    color: #2254d3;
+    font-size: 0.85em;
+}
