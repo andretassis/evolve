@@ -1,8 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Nav from './componentes/Navigation/Nav'
 import MainPage from './componentes/MainPage/MainPage';
 import LoginPage from './componentes/LoginPage/LoginPage';
-import Nav from './componentes/Navigation/Nav'
+import ProfilePage from './componentes/ProfilePage/ProfilePage';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/profile" element={ProfilePage} />
       </Routes>
     </Router>
   );

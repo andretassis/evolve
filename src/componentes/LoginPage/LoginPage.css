@@ -8,3 +8,7 @@
     color: #2254d3;
     font-size: 0.85em;
 }
+
+.error {
+    color: red;
+}
