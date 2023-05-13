@@ -9,7 +9,7 @@ Foi criada uma tela de login para o aluno ter acesso ao portal do cliente da aca
 
 Para teste de validação de login, apenas as credenciais abaixo funcionarão: 
 
-E-mail: aluno@teste.com
+E-mail: aluno@teste.com<br>
 Senha: aluno123
 
 ## Para iniciar o projeto
