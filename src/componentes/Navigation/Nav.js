@@ -15,8 +15,6 @@ function Nav() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link" aria-current="page" href="#">Sobre nós</a>
-                            <a className="nav-link" href="#">Contato</a>
                             <a className="nav-link" href="#" onClick={() => navigate('/login')}>Área do aluno</a>
                         </div>
                     </div>

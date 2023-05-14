@@ -23,12 +23,12 @@ function MainPage() {
                     <span className="aulas-nome">Evolve Muscle</span>
                     <div className="d-flex align-items-center justify-content-around flex-row">
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="horario-img" src={horario} alt="Horário"></img>
-                            <p class="horario">45 - 60 min.</p>
+                            <img className="horario-img" src={horario} alt="Horário"></img>
+                            <p className="horario">45 - 60 min.</p>
                         </div>
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="intensidade-img" src={intensidade} alt="Intensidade"></img>
-                            <p class="horario">Mod. - Alta</p>
+                            <img className="intensidade-img" src={intensidade} alt="Intensidade"></img>
+                            <p className="horario">Mod. - Alta</p>
                         </div>
                     </div>
                 </div>
@@ -37,12 +37,12 @@ function MainPage() {
                     <span className="aulas-nome">Evolve Cross</span>
                     <div className="d-flex align-items-center justify-content-around flex-row">
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="horario-img" src={horario} alt="Horário"></img>
-                            <p class="horario">60 min.</p>
+                            <img className="horario-img" src={horario} alt="Horário"></img>
+                            <p className="horario">60 min.</p>
                         </div>
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="intensidade-img" src={intensidade} alt="Intensidade"></img>
-                            <p class="horario">Alta</p>
+                            <img className="intensidade-img" src={intensidade} alt="Intensidade"></img>
+                            <p className="horario">Alta</p>
                         </div>
                     </div>
                 </div>
@@ -51,12 +51,12 @@ function MainPage() {
                     <span className="aulas-nome">Evolve Yoga</span>
                     <div className="d-flex align-items-center justify-content-around flex-row">
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="horario-img" src={horario} alt="Horário"></img>
-                            <p class="horario">30 - 60 min.</p>
+                            <img className="horario-img" src={horario} alt="Horário"></img>
+                            <p className="horario">30 - 60 min.</p>
                         </div>
                         <div className="aulas-cards d-flex align-items-center flex-column">
-                            <img class="intensidade-img" src={intensidade} alt="Intensidade"></img>
-                            <p class="horario">Leve</p>
+                            <img className="intensidade-img" src={intensidade} alt="Intensidade"></img>
+                            <p className="horario">Leve</p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ function MainPage() {
                             <li className="list-group-item precos-valor">R$ 250,00</li>
                             <li className="list-group-item precos-info">Acesso Standard</li>
                             <li className="list-group-item precos-info">Individual</li>
-                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                            <button type="button" className="btn btn-primary">Saiba mais</button>
                         </ul>
                     </div>
                     <div className="col precos-container-indiv precos-container-meio">
@@ -137,7 +137,7 @@ function MainPage() {
                             <li className="list-group-item precos-valor">R$ 400,00</li>
                             <li className="list-group-item precos-info">Acesso EvolveMAX</li>
                             <li className="list-group-item precos-info">Individual</li>
-                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                            <button type="button" className="btn btn-primary">Saiba mais</button>
                         </ul>
                     </div>
                     <div className="col precos-container-indiv precos-container-meio">
@@ -146,7 +146,7 @@ function MainPage() {
                             <li className="list-group-item precos-valor">R$ 475,00</li>
                             <li className="list-group-item precos-info">Acesso Standard</li>
                             <li className="list-group-item precos-info">Até 2 pessoas</li>
-                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                            <button type="button" className="btn btn-primary">Saiba mais</button>
                         </ul>
                     </div>
                     <div className="col precos-container-indiv">
@@ -155,7 +155,7 @@ function MainPage() {
                             <li className="list-group-item precos-valor">R$ 950,00</li>
                             <li className="list-group-item precos-info">Acesso EvolveMAX</li>
                             <li className="list-group-item precos-info">Até 4 pessoas</li>
-                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                            <button type="button" className="btn btn-primary">Saiba mais</button>
                         </ul>
                     </div>
                 </div>

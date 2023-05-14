@@ -14,7 +14,7 @@
 }
 
 .img-card {
-    width: 170px;
+    width: 250px;
     height: auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -39,7 +39,7 @@
     text-align: center;
     background-color: #2254d3;
     color: #E9E9E9;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .horario-img,
@@ -65,7 +65,7 @@
     text-align: center;
     background-color: #dad0d0;
     color: #2254D3;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 
